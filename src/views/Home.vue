@@ -1,17 +1,19 @@
 <template>
   <div class="main-container">
+    <Banner/>
     <h1>Monte o seu Burguer: </h1>
-    <p>Formulario</p>
-   <Banner/>
+    <BurguerForm/>
   </div>
 </template>
 
 <script>
 import Banner from '../components/Banner.vue';
+import BurguerForm from '../components/BurguerForm.vue';
 
 export default{
 components:{
-  Banner
+  Banner,
+  BurguerForm
 }
 
 }
