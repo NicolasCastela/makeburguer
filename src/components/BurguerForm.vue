@@ -2,7 +2,7 @@
     <div> 
         <Message :msg="msg" v-show="msg"/>
         <div>
-            <form id="burguer-form" @submit="createBurguer">
+            <form id="burguer-form" @submit="createBurger">
                 <div class="input-container">
                     <label for="nome">Nome do Cliente:</label>
                     <input type="text" name="nome" id="nome" v-model="nome" placeholder="Digite o seu nome!">
@@ -45,7 +45,7 @@
 <script>
 import Message from './Message.vue';
 export default {
-    name: 'BurguerForm',
+    name: 'BurgerForm',
     data() {
         return {
             paes: null,
@@ -68,7 +68,7 @@ export default {
             this.carnes = data.carnes;
             this.opcionaisdata = data.opcionais;
         },
-        async createBurguer(e) {
+        async createBurger(e) {
         e.preventDefault();
         
         const data = { 
