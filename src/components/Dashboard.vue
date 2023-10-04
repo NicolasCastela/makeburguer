@@ -12,9 +12,9 @@
       </div>
       <div id="burguer-table-rows">
         <div class="burguer-table-row">
-            <div class="order-number">1</div>
+            <div class="order-number"></div>
             <div>Nicolas</div>
-            <div>Pao de Trigo</div>
+            <div>Assado</div>
             <div>Maminha</div>
             <div>
                 <ul>
@@ -30,25 +30,7 @@
                 <button class="delete-btn"> Cancelar</button>
             </div>
         </div>
-        <div class="burguer-table-row">
-            <div class="order-number">2</div>
-            <div>Nicolas</div>
-            <div>Pao de Trigo</div>
-            <div>Maminha</div>
-            <div>
-                <ul>
-                    <li>Salame</li>
-                    <li>Tomate</li>
-
-               </ul>
-            </div>
-            <div>
-                <select name="status" id="status">
-                    <option value="">Selecione</option>
-                </select>
-                <button class="delete-btn"> Cancelar</button>
-            </div>
-        </div>
+       
       </div>
     </div>
 
@@ -56,7 +38,27 @@
 
 <script>
 export default{
-    name:'Dashboard'
+    name:'Dashboard',
+    data(){
+        return{
+            burguers:null,
+            burguer_id:null,
+            status: []
+        }
+    },
+    methods: {
+        async getPedidos(){
+                const req = await fetch('http://localhost:3000/burgers');
+                const data = await req.json();
+
+                this.burguers = data; 
+                // verificar se é assim mesmo
+            console.log(this.burguers);
+        }
+    },
+    mounted(){
+        this.getPedidos();
+    }
 }
 
 </script>

@@ -79,16 +79,18 @@
   ],
   "burgers": [
     {
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
+      "nome": "nicolas",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon"
+      ],
       "status": "Solicitado",
       "id": 1
     },
     {
       "nome": "nicolas",
-      "carne": "Alcatra",
+      "carne": "Veggie burger",
       "pao": "3 Queijos",
       "opcionais": [
         "Bacon"
@@ -97,69 +99,26 @@
       "id": 2
     },
     {
-      "nome": "saasd",
+      "nome": "nicolas",
       "carne": "Veggie burger",
-      "pao": "Italiano Branco",
+      "pao": "3 Queijos",
       "opcionais": [
-        "Bacon",
         "Salame"
       ],
       "status": "Solicitado",
       "id": 3
     },
     {
-      "nome": "asdasd",
+      "nome": "Maxi",
       "carne": "Picanha",
-      "pao": "3 Queijos",
+      "pao": null,
       "opcionais": [
-        "Bacon"
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
       ],
       "status": "Solicitado",
       "id": 4
-    },
-    {
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "nicolas",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 7
-    },
-    {
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 8
-    },
-    {
-      "nome": "a",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 9
     }
   ]
 }
