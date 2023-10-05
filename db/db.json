@@ -95,8 +95,33 @@
       "opcionais": [
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 2
+    },
+    {
+      "nome": "nicolas",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "nome": "Erivaldin Arnualduo Pericles",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 4
     }
   ]
 }
